@@ -1,0 +1,16 @@
+[package]
+name = "dsa"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[lints.clippy]
+mod_module_files = "warn"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "sorting"
+harness = false
